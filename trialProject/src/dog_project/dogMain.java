@@ -14,6 +14,10 @@ public class dogMain {
         Dog gS = new Dog("German Shepard", 12, ..);
         gs.printInfo();
 
+
+
+
+
         if (breed.equalsIgnoreCase("German Shepard")) {
             gShepard dog = new gShepard();
             System.out.println("German Shepards can live to " + dog.avgAge +
