@@ -13,7 +13,8 @@ public class Dog {
         this.color = color;
         this.size = size;
         this.additionalFacts = additionalFacts;
-}
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String breed;
@@ -22,8 +23,13 @@ public class Dog {
         System.out.println("Please enter the dog breed: ");
         breed = scanner.nextLine();
 
-        Dog germanShepard = new Dog("German Shepard", 12,  ..);
-        germanShepard.printInfo();
+        Dog gs = new Dog("German Shepard", 12, "very fast", "Black and brown", "These dogs are very large", "These dogs, along with Belgian Malinois are often used in the military");
+
+        if (breed.equals("german shepard")) {
+            gs.printInfo();
+        }
+    }
+}
 
 
 
