@@ -27,25 +27,26 @@ public class Dog {
         System.out.println(breed, avgAge)
     }
 
+
+}
+
+public class dogMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
 
 
         System.out.println("Please enter the dog breed: ");
         breed = scanner.nextLine();
 
         Dog gs = new Dog("German Shepard", 12, "very fast", "Black and brown", "These dogs are very large", "These dogs, along with Belgian Malinois are often used in the military");
-        private static void printInfo()
+        private static void printInfo ()
         {
-            System.out.print(String breed, int avgAge, );
+            System.out.print(breed, avgAge);
         }
         if (breed.equalsIgnoreCase("German Shepard"))
             gs.printInfo();
     }
 }
-
-
 
 
 
