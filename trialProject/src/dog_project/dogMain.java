@@ -6,6 +6,13 @@ import java.util.Scanner;
 
 
 public class Dog {
+    String breed;
+    int avgAge;
+    String speed;
+    String color;
+    String size;
+    String additionalFacts;
+
     public Dog(String breed, int avgAge, String speed, String color, String size, String additionalFacts) {
         this.breed = breed;
         this.avgAge = avgAge;
@@ -13,21 +20,28 @@ public class Dog {
         this.color = color;
         this.size = size;
         this.additionalFacts = additionalFacts;
+
+    }
+
+    private void printInfo() {
+        System.out.println(breed, avgAge)
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String breed;
+
 
 
         System.out.println("Please enter the dog breed: ");
         breed = scanner.nextLine();
 
         Dog gs = new Dog("German Shepard", 12, "very fast", "Black and brown", "These dogs are very large", "These dogs, along with Belgian Malinois are often used in the military");
-
-        if (breed.equals("german shepard")) {
-            gs.printInfo();
+        private static void printInfo()
+        {
+            System.out.print(String breed, int avgAge, );
         }
+        if (breed.equalsIgnoreCase("German Shepard"))
+            gs.printInfo();
     }
 }
 
