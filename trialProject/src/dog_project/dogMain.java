@@ -3,35 +3,16 @@ package dog_project;
 import java.util.Scanner;
 
 
-
-
-public class Dog {
-    String breed;
-    int avgAge;
-    String speed;
-    String color;
-    String size;
-    String additionalFacts;
-
-    public Dog(String breed, int avgAge, String speed, String color, String size, String additionalFacts) {
-        this.breed = breed;
-        this.avgAge = avgAge;
-        this.speed = speed;
-        this.color = color;
-        this.size = size;
-        this.additionalFacts = additionalFacts;
-
-    }
-
-    private void printInfo() {
-        System.out.println(breed, avgAge)
-    }
-
-
-}
-
 public class dogMain {
+
     public static void main(String[] args) {
+        String breed;
+        int avgAge;
+        String speed;
+        String color;
+        String size;
+        String additionalFacts;
+
         Scanner scanner = new Scanner(System.in);
 
 
@@ -39,12 +20,16 @@ public class dogMain {
         breed = scanner.nextLine();
 
         Dog gs = new Dog("German Shepard", 12, "very fast", "Black and brown", "These dogs are very large", "These dogs, along with Belgian Malinois are often used in the military");
-        private static void printInfo ()
-        {
-            System.out.print(breed, avgAge);
+        void printInfo() {
+            System.out.println(breed + "s can live to " + avgAge + " years; " + breed + "s can run " + speed +
+                    ". " + breed + "s are " + color + ". They are also " + size +
+                    ". A fun fact is " + additionalFacts + ".");
         }
-        if (breed.equalsIgnoreCase("German Shepard"))
+        if (breed.equalsIgnoreCase("German Shepard")) {
             gs.printInfo();
+        }
+
+
     }
 }
 
