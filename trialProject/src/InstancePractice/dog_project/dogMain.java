@@ -1,4 +1,4 @@
-package dog_project;
+package InstancePractice.dog_project;
 
 import java.util.Scanner;
 
@@ -20,13 +20,19 @@ public class dogMain {
         breed = scanner.nextLine();
 
         Dog gs = new Dog("German Shepard", 12, "very fast", "Black and brown", "These dogs are very large", "These dogs, along with Belgian Malinois are often used in the military");
-        void printInfo() {
-            System.out.println(breed + "s can live to " + avgAge + " years; " + breed + "s can run " + speed +
-                    ". " + breed + "s are " + color + ". They are also " + size +
-                    ". A fun fact is " + additionalFacts + ".");
-        }
+        Dog corgi = new Dog("Corgi", 15, "slow", "Brown and white", "size", "Queen Elizabeth II owned several of these dogs");
+        Dog samoyed = new Dog("Samoyed", 13, "fast", "white", "large", "they are cute dogs ig");
         if (breed.equalsIgnoreCase("German Shepard")) {
             gs.printInfo();
+        }
+        else if (breed.equalsIgnoreCase("Corgi")) {
+            corgi.printInfo();
+        }
+        else if (breed.equalsIgnoreCase("samoyed")) {
+            samoyed.printInfo();
+        }
+        else {
+            System.out.println("This doge is not in the code");
         }
 
 

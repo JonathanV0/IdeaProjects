@@ -1,4 +1,4 @@
-package dog_project;
+package InstancePractice.dog_project;
 
 public class samoyed {
     String speed;
@@ -10,7 +10,7 @@ public class samoyed {
     public samoyed() {
         avgAge = 13;
         speed = "very fast";
-        color = "Brown or black";
+        color = "White";
         size = "Medium to large";
         additionalFacts = "They are dogs made for winter, and if you hold them, they might just sit there and let you";
 

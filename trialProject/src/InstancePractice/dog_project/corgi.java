@@ -1,4 +1,4 @@
-package dog_project;
+package InstancePractice.dog_project;
 
 public class corgi {
     String speed;
