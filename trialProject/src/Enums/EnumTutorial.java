@@ -7,6 +7,7 @@ public class EnumTutorial {
         if (day == DaysOfTheWeek.THURSDAY) {
 
             System.out.println(Cereals.FROOT_LOOPS.levelOfDeliciousness);
+
         }
 
     }

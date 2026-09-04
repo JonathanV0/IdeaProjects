@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Linearization_calculator" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="Linearization_calculator" />
+    <module name="IdeaProjects" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trialProject/src" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
